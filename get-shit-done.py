@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 import sys
 import getpass
@@ -44,7 +44,7 @@ else:
 		'plurk.com', 'stickam.com', 'stumbleupon.com',
 		'yelp.com', 'slashdot.com']
 	
-restartNetworkingCommand = ["/etc/init.d/networking", "restart"]
+restartNetworkingCommand = ["/etc/rc.d/network", "restart"]
 hostsFile = '/etc/hosts'
 startToken = '## start-gsd'
 endToken = '## end-gsd'
